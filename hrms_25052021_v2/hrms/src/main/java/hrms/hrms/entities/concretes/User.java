@@ -40,16 +40,17 @@ public class User {
 		this.id = id;
 	}
 
-	public String getemail() {
-		return email;
-	}
-
-	public void seteMail(String email) {
-		this.email = email;
-	}
 
 	public String getPassword() {
 		return password;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public void setPassword(String password) {

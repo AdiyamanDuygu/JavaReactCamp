@@ -22,7 +22,7 @@ public class JobSeeker extends User {
 	private String last_name;
 
 	@Column(name="nationality_id")
-	private String nationality_id;
+	private String nationalityId;
 
 	@Column(name="year_of_birth")
 	private int year_of_birth;
@@ -40,11 +40,11 @@ public class JobSeeker extends User {
 //		this.year_of_birth = year_of_birth;
 //	}
 
-	public JobSeeker(String first_name, String last_name, String nationality_id, int year_of_birth) {
+	public JobSeeker(String first_name, String last_name, String nationalityId, int year_of_birth) {
 		super();
 		this.first_name = first_name;
 		this.last_name = last_name;
-		this.nationality_id = nationality_id;
+		this.nationalityId = nationalityId;
 		this.year_of_birth = year_of_birth;
 	}
 	
@@ -55,6 +55,14 @@ public class JobSeeker extends User {
 //	public void setUser_id(int user_id) {
 //		this.user_id = user_id;
 //	}
+
+	public String getNationalityId() {
+		return nationalityId;
+	}
+
+	public void setNationalityId(String nationalityId) {
+		this.nationalityId = nationalityId;
+	}
 
 	public String getFirst_name() {
 		return first_name;
@@ -70,14 +78,6 @@ public class JobSeeker extends User {
 
 	public void setLast_name(String last_name) {
 		this.last_name = last_name;
-	}
-
-	public String getNationality_id() {
-		return nationality_id;
-	}
-
-	public void setNationality_id(String nationality_id) {
-		this.nationality_id = nationality_id;
 	}
 
 	public int getYear_of_birth() {

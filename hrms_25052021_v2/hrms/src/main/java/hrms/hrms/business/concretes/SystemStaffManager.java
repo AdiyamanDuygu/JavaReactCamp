@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import hrms.hrms.business.abstracts.SystemStaffService;
-import hrms.hrms.core.Utilities.Results.DataResult;
-import hrms.hrms.core.Utilities.Results.SuccessDataResult;
+import hrms.hrms.core.utilities.Results.DataResult;
+import hrms.hrms.core.utilities.Results.SuccessDataResult;
 import hrms.hrms.dataAccess.abstracts.SystemStaffDao;
 import hrms.hrms.entities.concretes.SystemStaff;
 

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import hrms.hrms.business.abstracts.SystemStaffService;
-import hrms.hrms.core.Utilities.Results.DataResult;
+import hrms.hrms.core.utilities.Results.DataResult;
 import hrms.hrms.entities.concretes.SystemStaff;
 
 @RestController

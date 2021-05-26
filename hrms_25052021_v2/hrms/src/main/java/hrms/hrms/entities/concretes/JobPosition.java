@@ -18,18 +18,17 @@ public class JobPosition {
 	@Column(name="description")
 	private String description;
 	
-	@Column(name="employer_id")
-	private int employer_id;
+//	@Column(name="employer_id")
+//	private int employer_id;
 	
 	public JobPosition() {
 		
 	}
 
-	public JobPosition(int id, String description, int employer_id) {
+	public JobPosition(int id, String description) {
 		super();
 		this.id = id;
 		this.description = description;
-		this.employer_id = employer_id;
 	}
 
 	public int getId() {
@@ -48,12 +47,4 @@ public class JobPosition {
 		this.description = description;
 	}
 
-	public int getEmployer_id() {
-		return employer_id;
-	}
-
-	public void setEmployer_id(int employer_id) {
-		this.employer_id = employer_id;
-	}
-	
 }
